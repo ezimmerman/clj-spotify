@@ -1,6 +1,0 @@
-{:feed {:options {:timeout      2000
-                  :query-params {:q "prince" :type "artist"}
-                  :user-agent   "User-Agent-string"
-                  :headers      {"X-Header" "Value"}
-                  :body (json/encode {"key" "value"})}
-        :uri     "https://api.spotify.com/v1/search"}}
